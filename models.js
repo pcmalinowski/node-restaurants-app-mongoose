@@ -6,7 +6,7 @@ const restaurantSchema = mongoose.Schema({
   borough: {type: String, required: true},
   cuisine: {type: String, required: true},
   address: {
-    building: String,
+    building: String, 
     // coord will be an array of string values
     coord: [String],
     street: String,

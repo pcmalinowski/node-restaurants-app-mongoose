@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: izN3x/O0DcewOzAJzhFv+qKlPvp9en1oC23E0mvPbHVOaHqXHOCvVYZYxCXxuzo8AHwSKPdXUaBjfePa+P2lzWDZi+6ZrUpD8mceIGkxNxQE9nTiSmDrKNyhIN/6XaFYT6VloPhjrNylGNDFPHIj1jdqWN6BcmwQMTS1hBNspH0YXkk67/W5Ay8kahE+HGFp+LSU6p0OvuNi1qcMfvUGvAGwxOV0JwNSSqK52B0T+Mp9EaXR+EWBOPVdqUvkLt6WcFX32QYtagS30ntRt0GwDB2Y5cbOtbFKYrfe3+b0sKSRKTWj3mfC4Kv/kMO/hT/pM0EB6uiZyGpgHE2n4w3nfg5YnbtEHTmBEz0/koEIXFm2LY+qQDj+tnd1xgRIRCp4VxDlQR2TrAZGZr/i4Xy4669oKrAdWvs4ATLvBKdNrwGqB0YJammLnWx0fSTVD5gwE0Xymj+rjKucBIuvlCwc/CeTOgMj2Tq/EqyY9GWZjZ1xj3LfHptPWXAeKg4iKCQVjp90JJQq3WOg8psKqSV4nGIZP/ec09dHXeT3b9JHamxixGAotHkfHvVrJj4Q0oBTN9dyYkLnb6CJ8beIlTRSB8U4bqSd4axE2qz4QubaN5j+3yloX+kvZSUraxDTGVGzCy/hFAr2yIRTp7vUepic75+c6xp27RUBeR+GABtEePA=
+  app: https://powerful-spire-22350.herokuapp.com/
+  on:
+    repo: pcmalinowski/node-restaurants-app-mongoose
